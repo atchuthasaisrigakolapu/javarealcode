@@ -21,7 +21,7 @@ public class ProductOfferingQulaification {
     OffsetDateTime expectedActivationDate;
     String realm;
     @Valid List<RelatedChannel> relatedChannel;
-    @Valid List<ProductOfferingQualificationItem> productOfferingQualificationItem;
+    @Valid List<ProductOfferingQualificationRequest> productOfferingQualificationItem;
     TaskStateType state;
     Map<String,String> additionalProperties;
 }

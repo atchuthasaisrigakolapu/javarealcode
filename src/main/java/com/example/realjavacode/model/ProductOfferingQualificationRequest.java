@@ -17,7 +17,7 @@ import java.util.List;
 @Data
 @Accessors
 @Jacksonized
-public class ProductOfferingQualificationItem {
+public class ProductOfferingQualificationRequest {
 
 
     @NotNull OffsetDateTime offsetDateTime;

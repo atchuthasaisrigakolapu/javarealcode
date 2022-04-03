@@ -8,6 +8,7 @@ import lombok.extern.jackson.Jacksonized;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.time.OffsetDateTime;
+import java.util.List;
 
 @Value
 @Builder
@@ -23,4 +24,6 @@ public class ProductOfferingQualficationItemRequest {
     @Valid
     @NotNull
     ProductRefOrValueRequest product;
+
+    @Valid List<ProductOfferingQualficationItemRequest> productOfferingQualificationItem;
 }
